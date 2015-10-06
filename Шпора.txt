@@ -13,7 +13,9 @@
 	margin:0 auto;// центрирует div!!!
 	overflow:hidden; - упорядочивает "выбитые" float блоки, разм. внутри
 	http://www.colorzilla.com/gradient-editor/ - сервис построения градиентов инструментами CSS3
-
+	float применённый для li выстраивает их в строку как display:inline
+	display:block - приводит ссылки к блочному типу, и тогда работают паддинги
+	если не "бьёт" высота блока - body{font-family:Arial; line-height:1.3;}//line-height - высота строки
 
 
 

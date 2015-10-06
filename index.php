@@ -30,5 +30,27 @@
 			</ul>
 		</div>
 	</div>
+	<div class="content-wrapper">
+		<div class="content-main">
+			<div class="content">
+				<div class="articles">
+					<div class="articles-gen-images">
+						<a href="#"><img src="Images\post-img1.jpg" alt="" /></a>
+					</div>
+					<div class="articles-head">
+						<span><img src="Images\articles-author.jpg" alt="" /><span>Admin</span> - Nov 28th, 2010</span>
+						<span><img src="Images\articles-comment.jpg" alt=""><a href="#">10 Comments</a></span>
+					</div>
+					<div>
+						<h2><a href="#">Thanksgiving greeting card PSD</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. . </p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+			
+			</div>
+			<div class="sidebar">sidebar</div>
+		</div>
+	</div>
 </body>
 </html>

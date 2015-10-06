@@ -26,6 +26,7 @@ ul{
 	}
 .menu-wrapper{
 	width:100%;
+	padding: 1px 0 2px 0;
 		border-top:1px solid #d8d8d8;
 		background: rgb(244,244,244);
 		background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(213,213,213,1) 100%);
@@ -35,24 +36,43 @@ ul{
 		background: -ms-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(213,213,213,1) 100%);
 		background: linear-gradient(to bottom,  rgba(244,244,244,1) 0%,rgba(213,213,213,1) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#d5d5d5',GradientType=0 );
-
-}
+		margin-bottom:35px;}
 	.menu-main{
 	width:990px; margin:0px auto;overflow:hidden;
 	}
 	li{
 	display:inline;}
+	
+	a{ 
+		text-decoration: none;		
+	}
+	a:hover{
+		text-decoration: underline;
+	}
 	.menu{
-		 margin:10px 0 0 0;
+		 margin:0 0 0 0;
 		font-size:13px; 
 	}
 		.menu li{
-			float:left; padding:0 28px 0 0;display:inline;}
-		.menu li a{
-			color: #373737;
-		}	
+			float:left; }
+			.menu li a{
+				color: #373737; padding:7px 28px 0 0; display:block;
+			}	
 	.ico-social{
-		list-style:none; display:inline;float:right;
+		list-style:none; float:right;line-height:0;
 	}
-	
-	
+		.ico-social li {
+		margin-left:10px;
+	}
+.content-wrapper{
+	width:100%; 
+	}
+	.content-main{
+	width:990px; margin: 0 auto; overflow:hidden; padding:0 15px;
+	}
+		.content{
+		background:yellow;float:left; width:615px;overflow:hidden;
+		}
+		.sidebar{
+		background:green;float:right; width:300px;
+		}
