@@ -71,8 +71,74 @@ ul{
 	width:990px; margin: 0 auto; overflow:hidden; padding:0 15px;
 	}
 		.content{
-		background:yellow;float:left; width:615px;overflow:hidden;
+		float:left; width:615px;overflow:hidden;
 		}
+			.articles{
+				padding-bottom:35px;
+				border-bottom:1px solid #e6e6e6;
+				overflow:hidden;
+				margin-bottom:25px;
+			}
+				.articles:last-child{
+					border-bottom:none;
+				}
+				.articles a {
+					color:#eb4900;
+						}
+				.articles p{
+					padding-top:15px;
+					font-size:13px;
+				}
+				.articles h2 a{
+					color:#373737;
+					font-size:20px;
+					}
+				
+				.articles-head{
+					font-size:11px; 
+					padding-bottom:15px;overflow:hidden;
+				}
+					.articles-head img{
+						padding:0 5px 0 0;
+						vertical-align:middle;
+					}
+					.articles-gen-images{
+						float:left;
+						background:	#f3f3f3;				
+						padding:10px;
+						margin-right:20px;
+					}
+					.articles-author{
+						float:left;
+					}	
+					.articles-date{
+						color:#868686;
+					}	
+						
+					.articles-comments{
+						float:right;
+					}
+						.user-color{
+							color:#ec5b26;
+						}
+			.pager {
+				margin:0 auto 25px auto; display:table; font-size:35px; font-weight:bold;
+			}
+			.pager a{
+				 color:#868686;padding:0 7px;float:left;
+			}
+			.pager a:hover{
+				 text-decoration:none;float:left;
+				 color:#eb4900;
+			}
+			.pager a:last-child{
+				color:#eb4900;float:left;
+			}
+			.pager span{
+				 padding:0 7px;float:left;
+			}
+			
 		.sidebar{
 		background:green;float:right; width:300px;
 		}
+		

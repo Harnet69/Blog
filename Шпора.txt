@@ -1,21 +1,18 @@
 ﻿Вёрстка 
-	*{
-		padding:0; margin:0;// убирает отступы по умолчанию во всех броузерах
-	}
-
-	img{
-		border:none;//убирает рамки картинок (особенно IE)
-	}
-	body{
-		font-family:Arial; line-height:1.3;// межстрочный интервал
-	}
+	*{padding:0; margin:0;}// убирает отступы по умолчанию во всех броузерах
+	img{border:none;}//убирает рамки картинок (особенно IE)
+	body{font-family:Arial; line-height:1.3;}// задаёт межстрочный интервал
 	<link rel="stylesheet" type="text/css" href="style.css" />;// подключение стИлей CSS
 	margin:0 auto;// центрирует div!!!
 	overflow:hidden; - упорядочивает "выбитые" float блоки, разм. внутри
 	http://www.colorzilla.com/gradient-editor/ - сервис построения градиентов инструментами CSS3
 	float применённый для li выстраивает их в строку как display:inline
-	display:block - приводит ссылки к блочному типу, и тогда работают паддинги
-	если не "бьёт" высота блока - body{font-family:Arial; line-height:1.3;}//line-height - высота строки
+	display:block - приводит ссылки в меню к блочному типу и тогда работают паддинги
+	если не "бьёт" высота блока (например иконки) - body{line-height:1.3;}//line-height:0 - высота строки
+	.articles-head img{vertical-align:middle;}// центрует изображение в span
+	.articles:last-child{border:none;}//псевдокласс, указатель на последний элемент, убирает из него border;
+	.pager {margin:0 auto; display:table;//если div со ссылками в пагинаторе не центрируется - задать display:table
+	float:left //в пагинаторе ко всем ссылкам применять обязательно, он переводит из строчного в блочный формат		
 
 
 

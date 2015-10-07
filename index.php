@@ -38,16 +38,70 @@
 						<a href="#"><img src="Images\post-img1.jpg" alt="" /></a>
 					</div>
 					<div class="articles-head">
-						<span><img src="Images\articles-author.jpg" alt="" /><span>Admin</span> - Nov 28th, 2010</span>
-						<span><img src="Images\articles-comment.jpg" alt=""><a href="#">10 Comments</a></span>
+						<span class="articles-date"><img src="Images\articles-author.jpg" alt="" /><span class="user-color">Admin</span> - Nov 28th, 2010</span>
+						<span class="articles-comments" ><img src="Images\articles-comment.jpg" alt=""><a href="#">10 Comments</a></span>
 					</div>
-					<div>
+					<div class="articles-body">
 						<h2><a href="#">Thanksgiving greeting card PSD</a></h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. . </p>
 						<p><a href="#">Read More</a></p>
 					</div>
 				</div>
-			
+				
+				<div class="articles">
+					<div class="articles-gen-images">
+						<a href="#"><img src="Images\post-img2.jpg" alt="" /></a>
+					</div>
+					<div class="articles-head">
+						<span class="articles-date"><img src="Images\articles-author.jpg" alt="" /><span class="user-color">Admin</span> - Nov 28th, 2010</span>
+						<span class="articles-comments" ><img src="Images\articles-comment.jpg" alt=""><a href="#">10 Comments</a></span>
+					</div>
+					<div class="articles-body">
+						<h2><a href="#">Thanksgiving greeting card PSD</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. . </p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+				
+				<div class="articles">
+					<div class="articles-gen-images">
+						<a href="#"><img src="Images\post-img3.jpg" alt="" /></a>
+					</div>
+					<div class="articles-head">
+						<span class="articles-date"><img src="Images\articles-author.jpg" alt="" /><span class="user-color">Admin</span> - Nov 28th, 2010</span>
+						<span class="articles-comments" ><img src="Images\articles-comment.jpg" alt=""><a href="#">10 Comments</a></span>
+					</div>
+					<div class="articles-body">
+						<h2><a href="#">Thanksgiving greeting card PSD</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. . </p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+				
+				<div class="articles">
+					<div class="articles-gen-images">
+						<a href="#"><img src="Images\post-img4.jpg" alt="" /></a>
+					</div>
+					<div class="articles-head">
+						<span class="articles-date"><img src="Images\articles-author.jpg" alt="" /><span class="user-color">Admin</span> - Nov 28th, 2010</span>
+						<span class="articles-comments" ><img src="Images\articles-comment.jpg" alt=""><a href="#">10 Comments</a></span>
+					</div>
+					<div class="articles-body">
+						<h2><a href="#">Thanksgiving greeting card PSD</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. . </p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+				<div class="pager">
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<span>of</span>
+					<a href="#">75</a>
+					<a href="#">Next</a>
+				
+				</div>
 			</div>
 			<div class="sidebar">sidebar</div>
 		</div>
