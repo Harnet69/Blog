@@ -73,6 +73,26 @@ ul{
 		.content{
 		float:left; width:615px;overflow:hidden;
 		}
+		#ft-prev-slideshowHolder, #ft-next-slideshowHolder{
+		display:none;
+		}
+		#slideshowHolder{
+			border:10px solid #f3f3f3;
+		}
+		#ft-buttons-slideshowHolder{
+			position:relative; top:-45px; font-size:12px;
+			
+		}
+		.ft-button-slideshowHolder{
+			background:#eb4900; color:#fff; margin:0 5px;
+		} 
+		.ft-button-slideshowHolder-active{
+			background:#e6e6e6; color:#373737;
+		}
+
+
+
+
 			.articles{
 				padding-bottom:35px;
 				border-bottom:1px solid #e6e6e6;
@@ -139,6 +159,6 @@ ul{
 			}
 			
 		.sidebar{
-		background:green;float:right; width:300px;
+		float:right; width:300px;
 		}
 		

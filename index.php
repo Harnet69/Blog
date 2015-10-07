@@ -3,6 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="js/jqFancyTransitions.1.8.min.js" type="text/javascript"></script>
+<script>
+	$(document).ready( function(){
+		$('#slideshowHolder').jqFancyTransitions({ navigation: true, width: 594, height: 279 });
+	});
+	</script> 
 <title>Моя Тема WordPress для блога</title>
 </head>
 <body>
@@ -33,6 +40,11 @@
 	<div class="content-wrapper">
 		<div class="content-main">
 			<div class="content">
+				<div id='slideshowHolder'>    
+						<img src="images/img1.jpg" alt='' />            
+						<img src="images/img1.jpg" alt='' />            
+						<img src="images/img1.jpg" alt='' />            
+					</div>
 				<div class="articles">
 					<div class="articles-gen-images">
 						<a href="#"><img src="Images\post-img1.jpg" alt="" /></a>
@@ -62,8 +74,7 @@
 						<p><a href="#">Read More</a></p>
 					</div>
 				</div>
-				
-				<div class="articles">
+								<div class="articles">
 					<div class="articles-gen-images">
 						<a href="#"><img src="Images\post-img3.jpg" alt="" /></a>
 					</div>
@@ -103,7 +114,17 @@
 				
 				</div>
 			</div>
-			<div class="sidebar">sidebar</div>
+			<div class="sidebar">
+				<div clas="sidebar-widget">
+					<div class="search-main">
+						<form action="" method="GET">
+							<input type="text" name="search" value="Search Blog">
+							<input type="image" src="Images\search-btn.jpg">
+						</form>
+					</div>
+				</div>
+			</div>
+		
 		</div>
 	</div>
 </body>
