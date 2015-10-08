@@ -158,7 +158,24 @@ ul{
 				 padding:0 7px;float:left;
 			}
 			
-		.sidebar{
+		.sidebar-main{
 		float:right; width:300px;
 		}
-		
+			.sidebar-widget{
+				margin-bottom:20px;
+			}
+				.search-main{
+					border: 5px solid #e6e6e6; padding:1px 0; color:#535353;  overflow:hidden;				margin-bottom:20px;	
+				}
+					.search-txt{
+						padding:5px 5px; border:none; width:245px; 
+					}
+					.search-main input{
+						float:left; font-size:12px;   
+					}
+				.ads-main{
+					background:#f3f3f3; overflow:hidden; padding-top:17px;					
+				}
+				.ads-main li{
+					float:left; line-height:0; margin :0 0 17px 17px;
+				}

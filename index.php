@@ -114,14 +114,25 @@
 				
 				</div>
 			</div>
-			<div class="sidebar">
-				<div clas="sidebar-widget">
+			<div class="sidebar-main">
+				<div class="sidebar-widget">
 					<div class="search-main">
 						<form action="" method="GET">
-							<input type="text" name="search" value="Search Blog">
-							<input type="image" src="Images\search-btn.jpg">
+							<input class="search-txt" type="text" name="search" value="Search Blog" onfocus="if(this.value=='Search Blog')this.value=''" onblur="if(this.value=='')this.value='Search Blog'" />
+							<input class="search-img" type="image" src="Images\search-btn.jpg">
 						</form>
 					</div>
+					<div class="sidebar-widget">
+					<ul class="ads-main">
+						<li><a href="#"><img src="Images/ads1.jpg" alt=""/></a></li>				
+						<li><a href="#"><img src="Images/ads2.jpg" alt=""/></a></li>					
+						<li><a href="#"><img src="Images/ads3.jpg" alt=""/></a></li>					
+						<li><a href="#"><img src="Images/ads4.jpg" alt=""/></a></li>					
+					</ul>	
+					</div>
+					
+					
+					
 				</div>
 			</div>
 		
