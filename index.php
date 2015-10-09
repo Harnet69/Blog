@@ -130,13 +130,103 @@
 						<li><a href="#"><img src="Images/ads4.jpg" alt=""/></a></li>					
 					</ul>	
 					</div>
-					
+					<div class="sidebar-widget">
+						<div class="sidebar-categories">
+							<h3>categories</h3>
+							<ul class="side-categories">
+								<li><a href="#">Backgrounds</a></li>
+								<li><a href="#">Brushes</a></li>
+								<li><a href="#">Design Articles</a></li>
+								<li><a href="#">Fonts</a></li>
+								<li><a href="#">Free PSD Files</a></li>
+								<li><a href="#">Icons</a></li>
+								<li><a href="#">Logos</a></li>
+								<li><a href="#">Patterns</a></li>
+								<li><a href="#">Textures</a></li>
+								<li><a href="#">Tools & Utilities</a></li> 
+							</ul>
+							<ul class="side-categories">
+								<li><a href="#">Backgrounds</a></li>
+								<li><a href="#">Brushes</a></li>
+								<li><a href="#">Design Articles</a></li>
+								<li><a href="#">Fonts</a></li>
+								<li><a href="#">Free PSD Files</a></li>
+								<li><a href="#">Icons</a></li>
+								<li><a href="#">Logos</a></li>
+								<li><a href="#">Patterns</a></li>
+								<li><a href="#">Textures</a></li>
+								<li><a href="#">Tools & Utilities </a></li>
+							</ul>
+							</div>
+					</div>
+					<div class="sidebar-widget">
+					<div class="sidebar-categories">
+						<h3>Latest posts</h3>
+						<p class="latest-post">
+							<img src="Images/latest-post1.jpg" alt="">
+							<a href="#">Request a quote form PSD in 3 colors</a>
+						</p>
+						<p class="latest-post">
+							<img src="Images/latest-post1.jpg" alt="">
+							<a href="#">Thanksgiving greeting card PSD</a>
+						</p>
+						<p class="latest-post">
+							<img src="Images/latest-post1.jpg" alt="">
+							<a href="#">Vintage business card PSD (front&back)</a>
+						</p>
+						<p class="latest-post">
+							<img src="Images/latest-post1.jpg" alt="">
+							<a href="#">Free xHTML/CSS website template</a>
+						</p>
+						<p class="latest-post">
+							<img src="Images/latest-post1.jpg" alt="">
+							<a href="#">fruit illustration, fresh lemon PSD</a>
+						</p>
+						<p class="latest-post">
+							<img src="Images/latest-post1.jpg" alt="">
+							<a href="#">Wooden speakers PSD & icons</a>
+						</p>
+					</div>
+					</div>
+					<div class="sidebar-widget">
+						<div class="sidebar-facebook">
+							<img src="Images\sidebar-facebook.jpg" alt=""/>
+						</div>
+					</div>
 					
 					
 				</div>
 			</div>
 		
 		</div>
+	</div>
+	<div class="footer-wrapper">
+		<div class="footer-main">
+			<div class="footer-info">
+				<h3>About</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut purus odio, quis rutrum nibh. Etiam nec tellus malesuada odio tincidunt fringilla quis vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla malesuada convallis. Morbi laoreet volutpat rhoncus.</p>
+			</div>
+			<div class="footer-info">
+				<h3>Browse</h3>
+				<ul>
+					<li><a href="#"></a>Home</li>
+					<li><a href="#"></a>About Me</li>
+					<li><a href="#"></a>Design Services</li>
+					<li><a href="#"></a>Request Quote</li>
+					<li><a href="#"></a>Advertise</li>
+					<li><a href="#"></a>Contact Me</li>
+				</ul>
+			</div>
+			<div class="footer-info">
+				<h3>Write of us</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut purus odio, quis rutrum nibh. Etiam nec tellus malesuada odio tincidunt fringilla quis vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla malesuada convallis.</p>
+				<p><a href="#">Contact Us Now</a><p>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copy">
+		<p class="copy">Copyright © 2010 All Rights Reserved</p>
+		<p class="by-st">Designed by <a href="#">Harnet69</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="#">Wordpress</a></p>
 	</div>
 </body>
 </html>
